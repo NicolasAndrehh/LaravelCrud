@@ -1,0 +1,1 @@
+Formulario que tiene los datos en comun de crear y modificar empleado
