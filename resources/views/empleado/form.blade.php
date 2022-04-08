@@ -1,3 +1,5 @@
+<h1>{{ $titulo }}</h1>
+
 <label for="nombre">Nombre: </label>
 <input type="text" name="nombre" id="nombre" value="{{ isset($empleado->nombre)?$empleado->nombre: '' }}" placeholder="Nombre" >
 <br>
@@ -23,6 +25,6 @@
 <input type="file" name="foto" id="foto" value="">
 <br>
 
-<input type="submit" value="Enviar">
+<input type="submit" value="{{ $modo }}">
 
 <a href="{{ url('empleado') }}">Regresar</a>
